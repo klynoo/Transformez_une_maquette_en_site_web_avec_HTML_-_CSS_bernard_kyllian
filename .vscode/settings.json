@@ -1,6 +1,9 @@
 {
-    "[html]": {
-        "editor.tabSize": 4
-    },
-    "editor.detectIndentation": false
+  "[html]": {
+    "editor.tabSize": 4
+  },
+  "editor.detectIndentation": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "liveServer.settings.port": 5502
 }
