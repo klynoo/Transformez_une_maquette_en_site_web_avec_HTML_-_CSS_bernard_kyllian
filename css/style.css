@@ -28,7 +28,8 @@ p {
   padding: 0;
 }
 
-h1 {
+h1,
+h2 {
   color: #000;
   font-family: Raleway;
   font-size: 22px;
@@ -217,6 +218,10 @@ nav {
   gap: 20px;
 }
 
+.nav__filterbar-title h2 {
+  font-size: 18px;
+}
+
 .nav__filterbar-filtre {
   display: flex;
   flex-wrap: wrap;
@@ -314,7 +319,7 @@ nav {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  padding: 4px 15px 15px 15px;
+  padding: 4px 15px 0px 15px;
 }
 
 .section__hebergements__main__article__card h3 {
@@ -326,6 +331,15 @@ nav {
   color: #000;
   font-size: 14px;
   font-weight: 400;
+}
+
+.section__hebergements__show {
+  padding-top: 15px;
+}
+.section__hebergements__show a {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
 }
 
 .aside {
@@ -399,13 +413,19 @@ nav {
 }
 
 .activity__main a {
-  border-radius: 0px 0px 20px 20px;
+  border-radius: 20px 20px 0px 0px;
   box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
   width: 25%;
 }
 
 .activity__main__article__card {
   padding: 20px 19px;
+}
+
+.activity__main__article__card h3 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
 }
 
 .activity__main__article img {
@@ -433,6 +453,11 @@ footer {
   background-color: #f2f2f2;
 }
 
+.footer__info h2 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+}
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
@@ -467,6 +492,10 @@ footer {
 
   .aside__populaires__main a {
     width: 33%;
+  }
+
+  .activity__main__article img {
+    height: 200px;
   }
 }
 
